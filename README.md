@@ -36,7 +36,7 @@ change cluserIP --> NodePort
 kubectl get svc
 kubectl get nodes -o wide
 
-port forward 
+port forward
 kubectl port-forward svc/go-web-app 8080:80
 http://localhost:8080/
 curl http://localhost:8080
@@ -44,17 +44,19 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main
 kubectl get ing
 
 nslookup ELB --> nslookup a2518d583b7294335a555194c851a6cf-1089494526.ap-south-1.elb.amazonaws.com
-************
-Server:  UnKnown
-Address:  fe80::1
+
+---
+
+Server: UnKnown
+Address: fe80::1
 Non-authoritative answer:
-Name:    a2518d583b7294335a555194c851a6cf-1089494526.ap-south-1.elb.amazonaws.com
-Address:  13.232.217.71
-************
+Name: a2518d583b7294335a555194c851a6cf-1089494526.ap-south-1.elb.amazonaws.com
+Address: 13.232.217.71
 
-C:\Windows\System32\drivers\etc\hosts #add the address in this path 
+---
+
+C:\Windows\System32\drivers\etc\hosts #add the address in this path
 13.232.217.71 go-web-app.local
-
 
 ===================================================================================
 Installing helm
