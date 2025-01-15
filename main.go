@@ -58,7 +58,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		</head>
 		<body>
 			<div class="container">
-				<h1>Welcome to the Enhanced Go Webpage</h1>
+				<h1>Welcome to the Enhanced Go Webpage by Adarshini</h1>
 				<p>This is a simple Go server serving a webpage with enhanced UI.</p>
 				<button onclick="changeText()">Click Me!</button>
 				<p id="dynamic-text">Hello, click the button to change this text.</p>
