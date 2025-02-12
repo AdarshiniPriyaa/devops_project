@@ -65,7 +65,7 @@ Non-authoritative answer:
 Name: a2518d583b7294335a555194c851a6cf-1089494526.ap-south-1.elb.amazonaws.com
 Address: 13.232.217.71
 
----
+===================================================================================
 
 C:\Windows\System32\drivers\etc\hosts #add the address in this path
 13.232.217.71 go-web-app.local
